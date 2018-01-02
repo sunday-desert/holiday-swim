@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { fishies } from './data.js';
-import './Fish.css';
+import { fishies } from '../data.js';
 
 class Fish extends Component {
   constructor() {
@@ -34,7 +33,7 @@ class Fish extends Component {
 
   render() {
     if (this.state.mounted) this.going();
-    let fish = require(`./fish/${this.state.fish}.png`);
+    let fish = require(`../fish/${this.state.fish}.png`);
 
     return (
       <article>
