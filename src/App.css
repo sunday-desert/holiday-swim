@@ -5,3 +5,28 @@
 .main > div {
   position: absolute;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 173, 187);
+  border: 1vw solid rgb(189, 254, 230);
+  height: 100vh;
+  transition: 0.5s ease-in-out all;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+p {
+  color: rgb(252, 98, 124);
+}
+
+.hidden {
+  display: none;
+}

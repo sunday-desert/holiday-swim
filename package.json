@@ -1,17 +1,22 @@
 {
   "name": "holiday-swim",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "author": "sunday desert",
   "private": true,
+  "homepage": "https://skinsshark.github.io/holiday-swim",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
-    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-transition": "^1.1.3",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-snowstorm": "0.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

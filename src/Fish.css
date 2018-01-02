@@ -1,15 +1,6 @@
-/* .init img {
-  width: 50%;
-}
 
-@media only screen and (max-width: 767px) {
-  .init img {
-    width: 85%;
-    margin-top: 10vh;
-  }
-}
 
-p {
+/* p {
   color: rgb(252, 98, 124);
 }
 

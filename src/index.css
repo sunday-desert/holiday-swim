@@ -1,5 +1,29 @@
-/* body {
+@font-face {
+	font-family: 'VCR';
+	src: url("./fonts/VCR_OSD.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url("./fonts/BebasNeue_Bold.ttf") format('truetype');
+}
+
+p, a {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-} */
+  text-transform: uppercase;
+  font-family: 'VCR';
+  letter-spacing: 1px;
+}
+
+a,
+a:active {
+  color: #5158BB;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #5158BB;
+  font-style: italic;
+}

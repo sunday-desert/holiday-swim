@@ -33,7 +33,7 @@ class Fish extends Component {
   }
 
   render() {
-    // if (this.state.mounted) this.going();
+    if (this.state.mounted) this.going();
     let fish = require(`./fish/${this.state.fish}.png`);
 
     return (
@@ -51,8 +51,3 @@ class Fish extends Component {
 }
 
 export default Fish;
-
-
-
-// WEBPACK FOOTER //
-// ./src/Fish.js

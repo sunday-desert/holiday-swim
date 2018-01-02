@@ -1,102 +1,92 @@
-/* h2 {
+body.end {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 620px) {
+  body.end {
+    line-height: 20px;
+  }
+}
+
+h2 {
   font-family: 'Bebas Neue';
-  line-height: 13vw;
+  line-height: 12vw;
   letter-spacing: 8px;
   margin: 0;
   color: rgb(250, 85, 108);
-  font-size: 15vw;
+  font-size: 13vw;
   text-transform: uppercase;
-}
-
-p, a {
-  margin: 0;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-family: 'VCR';
-  letter-spacing: 1px;
-}
-
-a,
-a:active {
-  color: #5158BB;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  text-decoration: none;
-  color: #5158BB;
-  font-style: italic;
-}
-
-span {
-  display: flex;
-}
-
-.final {
-  background-color: #fff;
-  flex-wrap: wrap;
-  align-items: space-around;
-}
-
-.final .left img {
-  width: 100%;
 }
 
 .final .left {
-  width: 24%;
-  max-width: none;
-  margin: 0;
+  text-align: center;
+  padding-left: 5vw;
+  width: 40vw;
 }
 
-.final .right {
-  margin-left: 4vw;
-  width: 50vw;
+.final .left img {
+  /* opacity: 0; */
+  /* transition: 1s ease-in-out all; */
+  /* transition: opacity 2s; */
+  width: 70%;
 }
 
-.final .right a {
-  display: block;
+/* .final .left img.loaded {
+  opacity: 1;
+} */
+
+.final {
+  padding: 5px 20px;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 992px) {
-  .final {
-    padding: 0 15px;
-  }
-
   .final .left {
-    width: 30%;
-    margin-bottom: 5vh;
-  }
-
-  .final .right {
-    margin-right: 30px;
+    width: 35vw;
+    padding-left: 0;
   }
 
   .final .right p,
   a {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
-@media only screen and (max-width: 565px) {
-  .final {
-    flex-direction: column;
-    flex-wrap: wrap;
+@media only screen and (max-width: 620px) {
+  h2 {
+    line-height: 13vw;
+    letter-spacing: 8px;
+    font-size: 14vw;
   }
 
+  .final .right p {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  .final,
   .final .left {
-    width: 30%;
-  }
-
-  .final .right {
-    margin-right: 0;
-    width: 100%;
+    flex-wrap: wrap;
     text-align: center;
   }
 
-  .final .right p,
-  a {
-    font-size: 16px;
+  .final .left img {
+    width: 70%;
+    padding: 25px 0 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .final .left img {
+    width: 90%;
+    padding: 25px 0 0;
   }
 }
 
@@ -107,6 +97,10 @@ span {
   width: 70px;
 }
 
-
-
-*/
+@media only screen and (max-width: 767px) {
+  .eye {
+    width: 50px;
+    bottom: 0;
+    right: 5px;
+  }
+}

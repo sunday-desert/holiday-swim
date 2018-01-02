@@ -1,4 +1,8 @@
-/* h1 {
+body.start {
+  background-color: rgb(253, 173, 187);
+}
+
+h1 {
   font-family: 'Bebas Neue';
   letter-spacing: 15px;
   margin: 0;
@@ -7,12 +11,13 @@
   text-transform: uppercase;
 }
 
-span {
-  display: flex;
-}
-
 .init {
-  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 98vw;
+  height: 96vh;
   background-color: rgb(253, 173, 187);
   background-image: url('../holiday-swim.png');
   background-position: center 13vh;
@@ -22,6 +27,7 @@ span {
 
 @media only screen and (max-width: 767px) {
   .init {
+    height: 98.5vh;
     background-position: center 15vh;
     background-image: url('../holiday-swim-mobile.png');
     background-size: 70% auto;
@@ -33,4 +39,24 @@ span {
     background-position: center 20vh;
     background-size: 80% auto;
   }
-} */
+}
+
+header {
+  font-size: 25px;
+  padding-top: 12vh;
+}
+
+header p {
+  margin-top: 70px;
+}
+
+.init img {
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .init img {
+    width: 85%;
+    margin-top: 10vh;
+  }
+}
