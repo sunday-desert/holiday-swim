@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "sunday desert",
   "private": true,
-  "homepage": "https://skinsshark.github.io/holiday-swim",
+  "homepage": "https://sunday-desert.github.io/holiday-swim",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
